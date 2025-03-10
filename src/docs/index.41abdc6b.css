@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0 3%;
+}
+
+@media (width <= 768px) {
+  body {
+    margin: 0 2%;
+  }
+}
+
+header {
+  background-color: #f7fafc;
+  justify-content: space-around;
+  align-items: center;
+  padding: .8rem;
+  display: flex;
+  box-shadow: 0 1px 2px #0000001a;
+
+  @media (width <= 768px) {
+    & header, & {
+      padding: .5rem;
+    }
+  }
+}
+
+select {
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: .25rem;
+  width: 100%;
+  margin: 0 .5rem;
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+@media (width <= 768px) {
+  select {
+    font-size: .9rem;
+  }
+}
+
+select option {
+  @apply text-base p-2;
+}
+
+input[type="text"] {
+  border: 1px solid #d1d5db;
+  border-radius: .25rem;
+  width: 100%;
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+@media (width <= 768px) {
+  input[type="text"] {
+    font-size: .9rem;
+  }
+}
+/*# sourceMappingURL=index.41abdc6b.css.map */
